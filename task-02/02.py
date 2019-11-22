@@ -1,5 +1,5 @@
-def multuply(a, b):
-	pass
+def multuply(a, b) -> int:
+	return a * b
 
 if __name__ == '__main__':
 	assert multiply(3, 5) == 15
